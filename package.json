@@ -21,7 +21,7 @@
         "seed": "cross-env medusa seed -f ./data/seed.json",
         "start": "cross-env npm run build && medusa start",
         "start:custom": "cross-env npm run build && node --preserve-symlinks index.js",
-        "build:admin-dev": "medusa-admin build --deployment",
+        "dev:admin": "medusa-admin dev",
         "build:admin": "medusa-admin build"
     },
     "dependencies": {
